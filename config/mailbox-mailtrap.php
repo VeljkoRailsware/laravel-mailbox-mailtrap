@@ -10,6 +10,8 @@ return [
     // Route path under config('mailbox.path'). Final URL: /{mailbox.path}/mailtrap
     'route' => 'mailtrap',
 
-    // Reject deliveries whose events carry a different inbox_id (null = accept any).
+    // Only process events from this inbox; events from other inboxes on the account are
+    // ignored. Null or empty = accept any inbox. Must be a positive integer when set;
+    // anything else (including "0") makes the webhook answer 503 until the setting is fixed.
     'inbox_id' => env('MAILTRAP_INBOUND_INBOX_ID'),
 ];
