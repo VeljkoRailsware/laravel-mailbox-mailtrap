@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "event": "inbound.message_received",
+      "event_id": "00000000-0000-4000-8000-000000000001",
+      "timestamp": 1790097663741,
+      "inbox_id": 4242,
+      "message_id": "1000000000000000001",
+      "from": "Fixture sender <sender@example.test>"
+    },
+    {
+      "event": "inbound.message_received",
+      "event_id": "00000000-0000-4000-8000-000000000002",
+      "timestamp": 1790097665702,
+      "inbox_id": 4242,
+      "message_id": "1000000000000000002",
+      "from": "Fixture sender <sender@example.test>"
+    },
+    {
+      "event": "inbound.message_received",
+      "event_id": "00000000-0000-4000-8000-000000000003",
+      "timestamp": 1790097667464,
+      "inbox_id": 4242,
+      "message_id": "1000000000000000003",
+      "from": "Fixture sender <sender@example.test>"
+    },
+    {
+      "event": "inbound.message_received",
+      "event_id": "00000000-0000-4000-8000-000000000004",
+      "timestamp": 1790097669244,
+      "inbox_id": 4242,
+      "message_id": "1000000000000000004",
+      "from": "Fixture sender <sender@example.test>"
+    },
+    {
+      "event": "inbound.message_received",
+      "event_id": "00000000-0000-4000-8000-000000000005",
+      "timestamp": 1790097671135,
+      "inbox_id": 4242,
+      "message_id": "1000000000000000005",
+      "from": "Fixture sender <sender@example.test>"
+    }
+  ]
+}

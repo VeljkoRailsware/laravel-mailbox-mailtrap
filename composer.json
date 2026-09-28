@@ -26,6 +26,9 @@
             "providers": ["VeljkoRailsware\\LaravelMailboxMailtrap\\MailtrapMailboxServiceProvider"]
         }
     },
+    "scripts": {
+        "test": "phpunit -c phpunit.xml"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }
